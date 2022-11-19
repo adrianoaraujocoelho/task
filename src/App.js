@@ -1,10 +1,22 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//import { Button } from "react-native";
+//import Button from "./components/Button";
+
+import Home from "./pages/home";
+import Login from "./pages/login";
+
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Seja bem vindo ao React- Se não for para ser profissional nem venha!!
-      </h1>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
