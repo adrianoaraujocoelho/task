@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
+import { Header } from "../../components/Header";
+
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
-      <button>
-        <Link to="/login">Ir para login</Link>
-      </button>
+      <Header />
     </>
   );
 };
