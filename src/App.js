@@ -1,11 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-//import { Button } from "react-native";
-//import Button from "./components/Button";
-
 import Home from "./pages/home";
-import Login from "./pages/login";
 
 function App() {
   return (
@@ -13,7 +9,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </>

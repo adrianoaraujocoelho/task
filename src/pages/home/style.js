@@ -28,7 +28,7 @@ export const TitleHighLight = styled.span`
 `;
 
 export const TextContent = styled.p`
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

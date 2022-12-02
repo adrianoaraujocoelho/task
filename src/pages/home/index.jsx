@@ -2,6 +2,7 @@ import { Header } from "../../components/Header";
 
 import { Button } from "../../components/Button";
 import { Container, TextContent, Title, TitleHighLight } from "./style";
+import banner from "../../assets/banner.png";
 
 const Home = () => {
   return (
@@ -23,11 +24,13 @@ const Home = () => {
           </TextContent>
           <Button
             title="Começar a agora"
-            variant="secundary"
+            variant="secondary"
             onClick={() => null}
           />
         </div>
-        <div></div>
+        <div>
+          <img src={banner} alt="Imagem principal" />
+        </div>
       </Container>
     </>
   );
